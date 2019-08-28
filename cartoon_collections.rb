@@ -32,8 +32,7 @@ cheese_types.each do |cheese|
     break
   end
 end
-return nil
-end
+
 
 
 
