@@ -17,11 +17,13 @@ def long_planeteer_calls(calls_long)
    calls_long.each do |i| 
      if i.length > 4
        return true
-     end
-   end
+     end # this is the do end
+   end#this is the if end
    false
-end
-#
+end #this is the methond end
+# return true is the hard or explicit return tellign ruby if it hits that and finds somthing rturn true but the implict false withouty the return needs to be run after the true so thats why it's outside of method cause it's saying hey if when all strings are ran and dont return true ..return false.
+
+
 def find_the_cheese# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
