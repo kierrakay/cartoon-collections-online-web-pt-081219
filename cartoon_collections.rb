@@ -29,8 +29,6 @@ cheddar_cheese.each do |cheese|
   if cheddar_cheese.include? "cheese_types"
   return cheese_types
   end
-  end
- nil
 end
 
 
