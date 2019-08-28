@@ -26,8 +26,6 @@ end #this is the methond end
 def find_the_cheese# (cheddar_cheese)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-result = nil
-cheese_types.each do |cheese|
  cheese_types.include? "cheddar"
 end
 end
