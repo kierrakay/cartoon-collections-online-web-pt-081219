@@ -10,8 +10,8 @@ def summon_captain_planet(planeteer_calls)
   end
 end
 
-def long_planeteer_calls(calls)
-  if calls.validates_length_of < 4
+def long_planeteer_calls(calls_long)
+  if calls_long.validates_length_of < 4
     true 
   else
     false
