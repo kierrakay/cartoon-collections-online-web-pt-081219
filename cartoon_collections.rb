@@ -31,6 +31,7 @@ cheese_types.each do |cheese|
     return "cheddar"
   end
 end
+nil
 end
 
 
