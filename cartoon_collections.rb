@@ -6,7 +6,13 @@ end
 
 def summon_captain_planet(planeteer_calls)
  # planeteer_calls.collect!.with_index {|x, i| x[0...i] }
-   planeteer_calls.collect{|x| x.capitalize + "!"+ 1} 
+  # planeteer_calls.collect{|x| x + "!"+ 1} 
+     planeteer_calls.each do |i|
+      puts i + "!"
+    end
+    planeteer_calls
+  end
+
 end
 
 def long_planeteer_calls# code an argument here
