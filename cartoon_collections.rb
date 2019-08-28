@@ -13,10 +13,7 @@ end
 def long_planeteer_calls(calls_long)
   #if calls_long.length {|i| i >= 4} this is just checking length of array so it's never gonna pass our true. we need to find length of characters.
    calls_long.length {|i| i > 4}
-    true
-  else
-false
-end
+   
 end
 
 def find_the_cheese# code an argument here
