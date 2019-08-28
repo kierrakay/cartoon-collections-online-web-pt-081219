@@ -30,7 +30,9 @@ def find_the_cheese# (cheddar_cheese)
   if i == cheese_types
     return cheese
 end
-
+end
+"nil"
+end
 
 
 
