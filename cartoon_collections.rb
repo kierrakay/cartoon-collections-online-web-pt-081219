@@ -32,7 +32,7 @@ cheese_types.each do |cheese|
     result = cheese
   end
 end
-end
+
 
 
 
