@@ -26,12 +26,12 @@ end #this is the methond end
 def find_the_cheese# (cheddar_cheese)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheddar_cheese.each do |i|
-  if i == cheese_types
-    return 'cheddar'
+result = nil
+cheese_types.each do |cheese|
+  if cheese_types.include? "cheddar"
+    result = cheese
+  end
 end
-end
-return nil
 end
 
 
