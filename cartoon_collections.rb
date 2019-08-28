@@ -26,30 +26,8 @@ end #this is the methond end
 def find_the_cheese# (cheddar_cheese)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
- function findTheCheese(foods) {
-	var cheese = ["camembert", "cheddar", "gouda"];
-	for(var i = 0; i < foods.length; i++) {
-		var cheeseIdx = cheese.indexOf(foods[i]);
-		if(cheeseIdx !== -1) {
-			return foods[i];
-		}
-	}
-	return "no cheese!";
-} 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  return find_the_cheese(cheddar_cheese).include? ("cheddar")
+end
 
 #to install gem write " gem install pry" in terminal then require 'pry'
  #at top of file in text editor
