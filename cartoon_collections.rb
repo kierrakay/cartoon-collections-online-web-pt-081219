@@ -29,7 +29,6 @@ def find_the_cheese(cheddar_cheese)
 cheese_types.each do |cheese|
   if cheese_types.include? "cheddar"
     return "cheddar"
-    break
   end
 end
 end
