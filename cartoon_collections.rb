@@ -25,7 +25,7 @@ end #this is the method end
 
 def find_the_cheese(cheddar_cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
-cheddar_cheese.each do |cheese| #that is the variable we are using to represent a single element in the iteration
+cheddar_cheese.each do |cheese| #that is the variable we are using to represent a single element in the iteration...what are we using to reference each element in the cheddar_cheese array? |cheese| <-- this variable between pipes
   if cheese_types.include? cheese
   return cheese
   end
