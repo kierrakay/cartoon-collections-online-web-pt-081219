@@ -28,8 +28,8 @@ def find_the_cheese# code an argument here
 end
 
 
-#to install gem write 
-
+#to install gem write " gem install pry" in terminal then require 'pry'
+ #at top of file in text editor
 
 
 
