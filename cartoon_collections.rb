@@ -29,4 +29,4 @@ end
 
 
 
-#notes: don't put "puts" on line 9 because it'll return nil when we want to return the strings. .each returns original array and .map/.collect returns new array
+#notes: don't put "puts" on line 9 because it'll return nil when we want to return the strings. .each returns original array and .map/.collect returns new array. .collect returns a new array but doesn't actually change what's stored in planeteer calls
