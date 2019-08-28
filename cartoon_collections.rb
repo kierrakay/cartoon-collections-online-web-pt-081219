@@ -28,7 +28,7 @@ def find_the_cheese# (cheddar_cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheddar_cheese.each do |i|
   if i == cheese_types
-    return cheese
+    return 'cheddar'
 end
 end
 "nil"
