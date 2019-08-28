@@ -11,7 +11,8 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(calls_long)
-  if calls_long.length {|i| i >= 4} 
+  #if calls_long.length {|i| i >= 4} this is just checking length of array so it's never gonna pass our true. we need to find length of characters.
+  if
     true
   else
   false
