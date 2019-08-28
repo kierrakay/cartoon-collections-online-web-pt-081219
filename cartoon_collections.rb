@@ -25,7 +25,7 @@ end #this is the method end
 
 def find_the_cheese(cheddar_cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
-cheddar_cheese.each do |cheese|
+cheddar_cheese.each do |cheese| #that is the variable we are using to represent a single element in the iteration
   if cheese_types.include? cheese
   return cheese
   end
