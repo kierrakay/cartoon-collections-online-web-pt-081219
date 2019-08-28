@@ -5,7 +5,8 @@ end
 end
 
 def summon_captain_planet(planeteer_calls)
-  
+  planeteer_calls.collect!.with_index {|x, i| x[0...i] }
+end
 end
 
 def long_planeteer_calls# code an argument here
