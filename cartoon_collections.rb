@@ -27,7 +27,6 @@ def find_the_cheese# (cheddar_cheese)
   #cheese_types = ["cheddar", "gouda", "camembert"]
   return find_the_cheese.include? ("cheddar","gouda","camembert")
 end
-end
 
 #to install gem write " gem install pry" in terminal then require 'pry'
  #at top of file in text editor
