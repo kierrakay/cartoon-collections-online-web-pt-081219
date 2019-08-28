@@ -5,7 +5,7 @@ end
 end
 
 def summon_captain_planet(planeteer_calls)
-     planeteer_calls.map do |i|
+     planeteer_calls.map do |i| #.map and .collect are interchangeable
      i.capitalize + "!"
   end
 end
