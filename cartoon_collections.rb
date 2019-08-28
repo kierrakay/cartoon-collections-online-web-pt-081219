@@ -24,13 +24,12 @@ end #this is the method end
 
 
 def find_the_cheese(cheddar_cheese)
-  # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 cheese_types.each do |cheese|
-  if cheese_types.include? "cheddar"
-   "cheddar"
+  if cheese_types.include? cheese
+  cheese
   end
-end
+  end
 return nil
 end
 
