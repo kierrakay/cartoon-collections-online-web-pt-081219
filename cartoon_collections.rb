@@ -157,15 +157,7 @@ Failures:
        @@ -1,2 +1,2 @@
        -["Apple!"]
        +[nil, nil, nil]
-User avatar
-User avatar
-Dominique De León 9 MINUTES AGO
-sorry for the delay!
-User avatar
-Dominique De León 9 MINUTES AGO
-so
-User avatar
-Dominique De León 9 MINUTES AGO
+
 the tests are looking that your array has the right values in it
 User avatar
 Dominique De León 9 MINUTES AGO
