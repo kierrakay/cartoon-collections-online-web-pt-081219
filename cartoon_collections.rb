@@ -18,7 +18,7 @@ def long_planeteer_calls(calls_long)
      end # this is the do end
    end#this is the if end
    false
-end #this is the methond end
+end #this is the method end
 # return true is the hard or explicit return tellign ruby if it hits that and finds somthing rturn true but the implict false withouty the return needs to be run after the true so thats why it's outside of method cause it's saying hey if when all strings are ran and dont return true ..return false.
 #any? {|i| i > 4} optional way?
 
