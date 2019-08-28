@@ -7,7 +7,7 @@ end
 def summon_captain_planet(planeteer_calls)
      planeteer_calls.collect do |i|
       puts i.capitalize + "!"
-   summon_captain_planet
+   planeteer_calls
   end
 end
 def long_planeteer_calls# code an argument here
