@@ -25,9 +25,9 @@ end #this is the methond end
 def find_the_cheese# (cheddar_cheese)
   # the array below is here to help
   #cheese_types = ["cheddar", "gouda", "camembert"]
-  return find_the_cheese [0]
+  return find_the_cheese.include ("cheddar","gouda", "camembert")
 end
-
+emd
 
 #to install gem write " gem install pry" in terminal then require 'pry'
  #at top of file in text editor
